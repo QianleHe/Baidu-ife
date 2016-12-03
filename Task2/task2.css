@@ -108,7 +108,7 @@ body {
 }
 
 .tablepart {
-	width: 1240px;
+	width: 1200px;
 	height: auto;
 	background-color: white;
 	margin: 20px 20px 20px 20px;
@@ -142,7 +142,7 @@ body {
 }
 
 .final {
-	width: 1240px;
+	width: 1200px;
 	height: auto;
 	background-color: white;
 	margin: 20px 20px 20px 20px;
@@ -153,12 +153,20 @@ body {
 	padding-bottom: 40px;
 }
 
+.final h2{
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	border-left: 3px solid #ccc;
+}
+
 .final form {
 	margin-left: 300px;
 }
 
-.final form #submit {
-	margin-left: 180px;
+.final #submit {
+	/*width: 100%*/
+	margin-left: 500px;
 }
 
 .final form label {
