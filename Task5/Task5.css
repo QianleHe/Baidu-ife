@@ -1,0 +1,217 @@
+body {
+	margin: 0 auto;
+	border: 1px solid black;
+	/* width: 1280px; */
+	height:auto;
+	background-color: #DEDEDE;
+	padding: 0px;
+/*	overflow: auto;*/
+	min-width: 900px;
+}
+
+.topdiv {
+	width: 100%;/*1280*/
+	height: 60px;
+	background-color: #333333;
+
+}
+
+#logo {
+	margin-left: 100px;
+	width: auto;
+}
+
+.links {
+	/*background-color: red;*/
+	float: right;
+	width: 500px;
+	height: 60px;
+}
+
+
+.links li{
+	float: right;
+	margin-right: 30px;
+}
+
+.links li a {
+	color: white;
+	font-style: bold;
+}
+
+.firstpaper {
+	/* width: 1200px; */
+	height: auto;
+	background-color: white;
+	margin: 20px 590px 20px 20px;
+	box-shadow: 2px 2px 5px #bbb;
+	/*padding: 20px, 50px, 20px, 50px;*/
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	/* float: left; */
+
+}
+
+.firstpaper p {
+	line-height: 200%;
+}
+
+.secondpaper {
+	/* width: 1200px; */
+	height: auto;
+	background-color: white;
+	margin: 20px 590px 20px 20px;
+	box-shadow: 2px 2px 5px #bbb;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.secondpaper p {
+	line-height: 200%;
+}
+
+.picture {
+	/* width: 1240px; */
+	height: auto;
+	background-color: white;
+	margin: 20px 590px 20px 20px;
+	box-shadow: 2px 2px 5px #bbb;
+	padding-bottom: 40px;
+}
+
+.picture p {
+	margin-left: 30px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+#graph {
+	width: 122px;
+	height: 126px;
+	border: 1px solid grey;
+	margin-left: 40px;
+	margin-top: 20px;
+	padding-left: 11px;
+	padding-right: 11px;
+	padding-bottom: 11px;
+}
+
+#graph img {
+	width: 100px;
+	height: 81px;
+	margin-left: 11px;
+}
+
+#graph p {
+	font-size: 10px;
+	margin-left: 12px;
+}
+
+.tablepart {
+	/* width: 1200px; */
+	height: auto;
+	background-color: white;
+	margin: 20px 590px 20px 20px;
+	box-shadow: 2px 2px 5px #bbb;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+.tablepart ol {
+	line-height: 150%;
+}
+
+.tablepart table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.tablepart table,th,td {
+	border: 1px solid #CCCCCC;
+}
+
+.tablepart #td1{
+	background-color: #333333;
+	color: white;
+}
+
+.tablepart #td5 {
+	background-color: #CCCCCC;
+}
+
+/* .final {
+	width: 1200px;
+	height: auto;
+	background-color: white;
+	margin: 20px 20px 20px 20px;
+	box-shadow: 2px 2px 5px #bbb;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+.final h2{
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	border-left: 3px solid #ccc;
+}
+
+.final form {
+	margin-left: 300px;
+}
+
+.final #submit {
+	
+	margin-left: 500px;
+}
+
+.final form label {
+	text-align: left;
+}
+
+.final form textfield {
+	text-align: right;
+}
+
+.final form #notice {
+	font-size: 12px;
+	color: #A2ACB8;
+	
+} */
+
+.asidepart {
+	height: 500px;
+	width: 510px;
+	background-color: white;
+	float: right;
+	margin: 20px 20px 20px 20px;
+  	/* margin-right: 20px; */
+  	box-shadow: 2px 2px 5px #bbb;
+  	padding: 20px;
+}
+
+.asidepart h3 {
+	padding-left: 10px;
+	border-left:  3px #ccc solid;
+}
+
+
+.emailaddr {
+	 vertical-align: bottom;
+	 margin-top: 10px;
+	 margin-left: 20px;
+	 float: left;
+}
+
+.input_message {
+	margin-top: 10px;
+	float: left;
+}
